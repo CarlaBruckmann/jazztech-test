@@ -19,7 +19,7 @@ export default {
 
 :root{
   --white: #FFFFFF;
-  --black: #000410;
+  --black: #000004;
   --blue-accent: #B1D0D6;
   --blue-dark: #092052;
   --font-primary: 'Exo';
