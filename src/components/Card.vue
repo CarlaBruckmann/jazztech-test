@@ -1,19 +1,19 @@
 <template>
   <div class="card">
-    <WrapperHeader />
+    <Header />
     <Content/>
   </div>
 </template>
 
 <script>
 import Content from "./Content.vue";
-import WrapperHeader from "./Header.vue";
+import Header from "./Header.vue";
 
 export default {
   name: "Card",
   components: {
     Content,
-    WrapperHeader,
+    Header
   },
 };
 </script>

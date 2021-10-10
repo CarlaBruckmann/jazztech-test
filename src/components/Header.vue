@@ -9,7 +9,7 @@
 import Button from "./Button.vue";
 import User from "./User.vue";
 export default {
-  name: "WrapperHeader",
+  name: "Header",
   components: {
     Button,
     User,
