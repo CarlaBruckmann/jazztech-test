@@ -7,7 +7,7 @@
 <script>
 import Title from "./Title.vue";
 export default {
-  name: "Wrapper",
+  name: "Content",
   components: {
     Title,
   },

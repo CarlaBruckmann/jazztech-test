@@ -1,18 +1,18 @@
 <template>
   <div class="card">
     <WrapperHeader />
-    <Wrapper />
+    <Content/>
   </div>
 </template>
 
 <script>
-import Wrapper from "./Wrapper.vue";
-import WrapperHeader from "./WrapperHeader.vue";
+import Content from "./Content.vue";
+import WrapperHeader from "./Header.vue";
 
 export default {
   name: "Card",
   components: {
-    Wrapper,
+    Content,
     WrapperHeader,
   },
 };
