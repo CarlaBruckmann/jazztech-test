@@ -1,0 +1,29 @@
+<template>
+  <div>
+    <img src="./assets/user.png" alt="User image" />
+    <p>Madelyn<br>Stillwell</p>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "User",
+};
+</script>
+
+<style scoped>
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+p {
+  margin-left: 10px;
+  color: var(--white);
+  font-family: var(--font-secundary);
+  font-size: 12px;
+  text-align: center;
+}
+</style>
