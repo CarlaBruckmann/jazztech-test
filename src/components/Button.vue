@@ -12,7 +12,6 @@ export default {
 button {
   text-decoration: uppercase;
   padding: 5px 10px;
-  
   border: solid 1px var(--blue-accent);
   background: var(--blue-dark);
   font-family: var(--font-primary);

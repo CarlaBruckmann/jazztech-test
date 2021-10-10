@@ -21,11 +21,13 @@ export default {
 <style>
 .card {
   width: 80vw;
-  max-width: 1535px;
+  max-width: 1300px;
+  height: 600px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 30px auto;
+  margin: 10px auto;
 }
+
 </style>

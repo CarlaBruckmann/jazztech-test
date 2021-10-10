@@ -1,7 +1,7 @@
 <template>
   <div>
     <img src="./assets/user.png" alt="User image" />
-    <p>Madelyn<br>Stillwell</p>
+    <p>Madelyn<br />Stillwell</p>
   </div>
 </template>
 
@@ -14,15 +14,17 @@ export default {
 <style scoped>
 div {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
 }
-
 p {
-  margin-left: 10px;
   color: var(--white);
   font-family: var(--font-secundary);
   font-size: 12px;
   text-align: center;
+  margin-left: 10px;
+}
+img {
+  margin: 10px;
 }
 </style>

@@ -23,16 +23,32 @@ section {
   background-size: 120%;
   background-position: center;
   background-color: var(--black);
-  width: 50%;
-  height: 600px;
+  height: 100%;
   display: flex;
+  flex: 1 1 300px;
   justify-content: space-between;
   align-items: flex-end;
 }
 div{
-  padding: 30px;
+  padding: 30px 20px;
 }
 button{
     margin: 30px 30px 40px 30px;
+}
+
+
+@media screen and (max-width: 1124px){
+ section{
+   height: 200px;
+    background-position: center top;
+    background-size: 70%;
+ };
+}
+
+@media screen and (max-width: 670px){
+ section{
+    background-position: center top;
+    background-size: 100%;
+ };
 }
 </style>

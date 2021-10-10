@@ -13,3 +13,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+section{
+  background-color: var(--blue-dark);
+  height: 100%;
+  flex: 1 1 600px; 
+}
+div {
+  margin: 20px;
+}
+
+</style>
