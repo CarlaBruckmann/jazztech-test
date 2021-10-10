@@ -29,6 +29,9 @@ section {
   justify-content: space-between;
   align-items: flex-end;
 }
+div{
+  padding: 30px;
+}
 button{
     margin: 30px 30px 40px 30px;
 }

@@ -16,7 +16,6 @@ div {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  padding: 30px;
 }
 
 p {
