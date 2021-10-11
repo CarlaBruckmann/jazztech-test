@@ -8,6 +8,7 @@
 <script>
 import Button from "./Button.vue";
 import User from "./User.vue";
+
 export default {
   name: "Header",
   components: {
@@ -35,7 +36,6 @@ div {
 button {
   margin: 30px 30px 50px 30px;
 }
-
 @media screen and (max-width: 1124px) {
   section {
     height: 200px;
@@ -43,7 +43,6 @@ button {
     background-size: 70%;
   }
 }
-
 @media screen and (max-width: 670px) {
   section {
     background-position: center top;

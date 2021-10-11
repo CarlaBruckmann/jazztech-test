@@ -53,7 +53,7 @@ export default {
   transition: all 0.2s linear;
 }
 .title-accordion:hover,
-.title-accordion:focus{
+.title-accordion:focus {
   transform: scale(1.01);
   transition: 0.2s ease all;
 }

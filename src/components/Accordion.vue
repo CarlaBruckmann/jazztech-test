@@ -13,6 +13,7 @@
 
 <script>
 import Info from "./Info.vue";
+
 export default {
   name: "Accordion",
   components: {

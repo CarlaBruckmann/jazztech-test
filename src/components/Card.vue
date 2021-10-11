@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <Header />
-    <Content/>
+    <Content />
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
   name: "Card",
   components: {
     Content,
-    Header
+    Header,
   },
 };
 </script>
@@ -29,5 +29,4 @@ export default {
   align-items: center;
   margin: 10px auto;
 }
-
 </style>

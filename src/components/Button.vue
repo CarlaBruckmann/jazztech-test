@@ -20,7 +20,7 @@ button {
   cursor: pointer;
 }
 button:hover,
-button:focus{
+button:focus {
   transform: scale(1.05);
   transition: 0.2s ease all;
 }
