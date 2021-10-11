@@ -1,15 +1,18 @@
 <template>
   <section>
     <Title />
+    <Accordion/>
   </section>
 </template>
 
 <script>
 import Title from "./Title.vue";
+import Accordion from './Accordion.vue';
 export default {
   name: "Content",
   components: {
     Title,
+    Accordion
   },
 };
 </script>
