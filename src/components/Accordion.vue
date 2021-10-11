@@ -83,8 +83,7 @@ export default {
           crimeRate: "50.99",
           hero: "Stormfront",
           open: false,
-
-        }
+        },
       ],
     };
   },
@@ -103,4 +102,8 @@ export default {
 };
 </script>
 
-         
+<style scoped>
+.infos {
+  padding: 0 10px;
+}
+</style>        
