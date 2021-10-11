@@ -1,6 +1,13 @@
 <template>
   <div class="infos">
-    <Info v-for="(info, i) in infos" :info="info" :index="i" :key="i" :open="info.open" @toggleOpen="toggleOpen"/>
+    <Info
+      v-for="(info, i) in infos"
+      :info="info"
+      :index="i"
+      :key="i"
+      :open="info.open"
+      @toggleOpen="toggleOpen"
+    />
   </div>
 </template>
 
@@ -35,16 +42,18 @@ export default {
       ],
     };
   },
-  methods:{
-      toggleOpen: function(index){
-          this.infos = this.infos.map((info,i) => {
-              if (index === i){
-                  info.open =! info.open;
-              }
-              return info;
-          });
-      }
-  }
+  methods: {
+    toggleOpen: function (index) {
+      this.infos = this.infos.map((info, i) => {
+        if (index === i) {
+          info.open = !info.open;
+        } else {
+          info.open = false;
+        }
+        return info;
+      });
+    },
+  },
 };
 </script>
 
