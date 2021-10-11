@@ -22,7 +22,8 @@ export default {
 .card {
   width: 80vw;
   max-width: 1300px;
-  height: 600px;
+  height: auto;
+  min-height: 700px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

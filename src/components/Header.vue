@@ -23,7 +23,7 @@ section {
   background-size: 120%;
   background-position: center;
   background-color: var(--black);
-  height: 100%;
+  height: 610px;
   display: flex;
   flex: 1 1 300px;
   justify-content: space-between;
