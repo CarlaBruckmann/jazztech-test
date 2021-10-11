@@ -58,8 +58,8 @@ export default {
 }
 .info .info-accordion {
   padding: 10px 20px;
-  font-family: var(--font-secundary);
-  font-size: 14px;
+  font-family: var(--font-secondary);
+  font-size: 16px;
   overflow-y: hidden;
   transition: all 0.4s ease-out;
   display: none;

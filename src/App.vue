@@ -22,6 +22,6 @@ export default {
   --blue-accent: #b1d0d6;
   --blue-dark: #092052;
   --font-primary: "Exo";
-  --font-secundary: "Ubuntu";
+  --font-secondary: "Ubuntu";
 }
 </style>

@@ -19,7 +19,7 @@ div {
 }
 p {
   color: var(--white);
-  font-family: var(--font-secundary);
+  font-family: var(--font-secondary);
   font-size: 12px;
   text-align: center;
   margin-left: 10px;
