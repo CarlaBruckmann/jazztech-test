@@ -23,8 +23,10 @@ p {
   font-size: 12px;
   text-align: center;
   margin-left: 10px;
+  cursor:default;
 }
 img {
   margin: 10px;
+  cursor: pointer;
 }
 </style>

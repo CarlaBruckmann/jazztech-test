@@ -18,5 +18,6 @@ h1 {
   font-size: 24px;
   text-transform: uppercase;
   color: var(--white);
+  cursor:default;
 }
 </style>

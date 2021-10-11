@@ -17,5 +17,11 @@ button {
   font-family: var(--font-primary);
   color: var(--white);
   text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover,
+button:focus{
+  transform: scale(1.05);
+  transition: 0.2s ease all;
 }
 </style>

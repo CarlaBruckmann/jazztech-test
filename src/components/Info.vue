@@ -52,6 +52,11 @@ export default {
   background-repeat: no-repeat;
   transition: all 0.2s linear;
 }
+.title-accordion:hover,
+.title-accordion:focus{
+  transform: scale(1.01);
+  transition: 0.2s ease all;
+}
 .info .info-accordion {
   padding: 10px 20px;
   font-family: var(--font-secundary);
