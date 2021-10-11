@@ -7,3 +7,12 @@
 html {
   background-color: #070920;
 }
+@media screen and (min-width: 1125px) {
+  #app {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
