@@ -30,7 +30,6 @@ export default {
 .info .title-accordion {
   width: 100%;
   padding: 10px;
-  transition: all 0.4 linear;
   font-family: var(--font-primary);
   font-size: 18px;
   position: relative;
