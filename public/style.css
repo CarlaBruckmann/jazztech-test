@@ -7,7 +7,7 @@
 html {
   background-color: #070920;
 }
-@media screen and (min-width: 1125px) {
+@media screen and (min-width: 768px) {
   #app {
     width: 100vw;
     min-height: 100vh;
