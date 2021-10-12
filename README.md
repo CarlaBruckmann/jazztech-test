@@ -5,18 +5,18 @@
  
 
 ## :white_check_mark: Teste:
-###Descrição: [Jazz Tech test Front-end](https://github.com/CarlaBruckmann/jazztech-test/blob/master/previews/test-frontend.md).
+### Descrição: [Jazz Tech test Front-end](https://github.com/CarlaBruckmann/jazztech-test/blob/master/previews/test-frontend.md).
 <br>
 ## :rocket: A Aplicação:
 ### Interface para empresa fictícia [Vought](https://the-boys.fandom.com/wiki/Vought_International) (seriado [The Boys](https://pt.wikipedia.org/wiki/The_Boys_(s%C3%A9rie_de_televis%C3%A3o))), que permite a listagem de clientes em potencial, fornecendo informações ao setor comercial. É responsiva, facilmente acessível de smartphones e tablets.  
 ### :white_check_mark: Tecnologia utilizada:  `VueJs`- Primeiro contato com o framework.
 <br>
 ## Utilizando a Aplicação: 
-###Executar os seguintes comandos na raíz do projeto:
+### Executar os seguintes comandos na raíz do projeto:
 
-####`npm install` - Instala dependências necessárias do projeto.
+#### `npm install` - Instala dependências necessárias do projeto.
 
-####`npm run serve` - Compila e disponibiliza arquivos em servidor web local. 
+#### `npm run serve` - Compila e disponibiliza arquivos em servidor web local. 
 <br>
 
 [Preview - Home - Desktop]
